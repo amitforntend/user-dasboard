@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input, select {
+    padding: 8px;
+    flex: 1;
+  }
+  
+  .user {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .highlight {
+    background: yellow;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 6px 12px;
+    cursor: pointer;
+  }
