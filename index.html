@@ -10,6 +10,15 @@
 <div class="container">
   <h1>User Dashboard</h1>
 
+  <!-- 🔹 FORM -->
+  <form id="user-form">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="text" id="city" placeholder="City" required>
+    <button type="submit">Add User</button>
+  </form>
+
+  <!-- 🔹 CONTROLS -->
   <div class="controls">
     <input type="text" id="search" placeholder="Search by name or email">
     
@@ -20,8 +29,10 @@
     </select>
   </div>
 
+  <!-- 🔹 USER LIST -->
   <div id="user-list"></div>
 
+  <!-- 🔹 PAGINATION -->
   <div class="pagination">
     <button id="prev">Prev</button>
     <span id="page-info"></span>
